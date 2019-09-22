@@ -24,7 +24,7 @@ Se implementan los cambios de diseño y se agregan módulos nuevos como compress
 Se agrega en el documento de marco de referencia las evidencias resultantes de las pruebas realizadas con JMeter, unas antes de las mejoras para rendimiento y las otras luego de implementar los cambios, para así lograr ver el comparativo de resultados.
 
 ### 21-09-2019
-Se hacen las pruebas pertinentes con el balanceador de carga apagando un servidor, en el cual responde satisfactoriamente hacia el otro servidor, y tambien se hace lo mismo con el otro servidor para garantizar que responda a los dos servidores cuando cada uno se encuentra caido.
+Se hacen las pruebas pertinentes con el balanceador de carga apagando un servidor, en el cual responde satisfactoriamente hacia el otro servidor, y tambien se hace lo mismo con el otro servidor para garantizar que responda a los dos servidores cuando uno de los dos se encuentra caido.
 
 
 
