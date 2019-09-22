@@ -10,6 +10,7 @@ ENV PORT $PORT
 WORKDIR /nodeproyecto1
 COPY . ./
 
+RUN npm install compression
 RUN npm install --test
 
 EXPOSE 3000

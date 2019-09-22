@@ -6,6 +6,7 @@ const session = require('express-session');
 const flash = require('connect-flash');
 const passport = require('passport');
 const procces = require ('process');
+const compression = require('compression');
 //const mongoose = require('mongoose');
 //const config = require('./config/config');
 
@@ -48,6 +49,7 @@ app.set('view engine', '.hbs');
 
 //funciones 
 
+app.use(compression());
 app.use(express.urlencoded({extended:false}));
 app.use(methodOverride('_method'));
 app.use(session({
