@@ -17,8 +17,11 @@ en el cual se trabaja pruebas de carga y stress en (rendimiento) con JMeter, se 
 ### 21-09-2019
 Se hacen cambios en las vistas para diferenciar cuando el balanceador de carga apunta ya sea al servidor de la app1 y servidor de la app2.
 
+### 21-09-2019
+Se implementan los cambios de diseño y se agregan módulos nuevos como compression de node con la finalidad de disminuir el tamaño de bytes con los cuales responden los servicios web implementados y así mejorar el atributo de rendimiento en la web app
 
-
+### 21-09-2019
+Se agrega en el documento de marco de referencia las evidencias resultantes de las pruebas realizadas con JMeter, unas antes de las mejoras para rendimiento y las otras luego de implementar los cambios, para así lograr ver el comparativo de resultados.
 
 
 
