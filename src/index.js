@@ -50,6 +50,7 @@ app.set('view engine', '.hbs');
 //funciones 
 
 app.use(compression());
+app.use(express.static(path.join('src/indexedDB.hbs', 'public')));
 app.use(express.urlencoded({extended:false}));
 app.use(methodOverride('_method'));
 app.use(session({
